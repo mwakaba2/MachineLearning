@@ -28,9 +28,10 @@ plt.ylabel("grade")
 plt.show()
 ################################################################################
 
-#  using K nearest neighbors algorithm
-from sklearn.neighbors import KNeighborsClassifier
-clf = KNeighborsClassifier(n_neighbors=3)
+#  using Adaboost with 100 weak learners
+from sklearn.ensemble import AdaBoostClassifier
+
+clf = AdaBoostClassifier(n_estimators=100)
 clf.fit(features_train, labels_train)
 prediction = clf.predict(features_test)
 score = accuracy_score(labels_test, prediction, normalize=True)

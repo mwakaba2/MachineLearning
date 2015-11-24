@@ -28,9 +28,10 @@ plt.ylabel("grade")
 plt.show()
 ################################################################################
 
-#  using K nearest neighbors algorithm
-from sklearn.neighbors import KNeighborsClassifier
-clf = KNeighborsClassifier(n_neighbors=3)
+#  using random forest
+from sklearn.ensemble import RandomForestClassifier
+
+clf = RandomForestClassifier(n_estimators=10)
 clf.fit(features_train, labels_train)
 prediction = clf.predict(features_test)
 score = accuracy_score(labels_test, prediction, normalize=True)
