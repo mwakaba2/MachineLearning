@@ -3,7 +3,7 @@ Background:
 
 In 1973, the University of California-Berkeley (UC-Berkeley) was sued for sex discrimination. Its admission data showed that men applying to graduate school at UC-Berkley were more likely to be admitted than women.
 
-The graduate schools had just accepted 44% of female applicants but only 35% of female applicants. The difference was so great that it was unlikely to be due to chance.
+The graduate schools had just accepted 44% of male applicants but only 35% of female applicants. The difference was so great that it was unlikely to be due to chance.
 
 By looking at the data more closely, you may realize that there is more to the story than meets the eye.
 
@@ -19,7 +19,8 @@ Question for you:
 
 Now, do you agree that UC-Berkeley discriminated against women during the admission process?
 
-Yes or No?
+No because when you examine the admittance rate for each Department, the admission rate is actually higher for women than men.
+Since there are a lot more men applying than women in the first place, a lot more men are likely to be admitted out of the pool.
 
 
 What do other experts say?:
